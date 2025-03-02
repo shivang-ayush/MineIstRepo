@@ -1,4 +1,3 @@
-'''
 x= int(input('Enter the value of x', ))
 n=int(input('Enter the exponential value of x', ))
 s=x
@@ -9,7 +8,7 @@ for i in range(2, n+1):
     term=(x**i)/f
     s=s+term
 print(f"The sum of the series up to {n} terms is: {s}")
-'''
+
 
 x= int(input('Enter the year', ))
 a= x%4
